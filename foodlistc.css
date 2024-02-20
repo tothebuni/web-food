@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+nav{
+    display: flex;
+    height: 10em;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid transparent;
+}
+.logo img{
+    margin-left: 0;
+    margin-top: 20px;
+    image-resolution;
+        width: 350px;
+        height: auto;
+}
+body{
+    background-image:url(https://images.unsplash.com/photo-1509358271058-acd22cc93898?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+    z-index: -1;
+    background-size: cover;
+    
+}
+ul.menu{
+    width: 30%;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    margin-right: 200px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+ul.menu a{
+    text-decoration: none;
+    color: #eee;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+    padding-bottom: auto;
+}
+ul.menu a:hover{
+    background-color: rgb(255,99,71);
+    border-radius: 25px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    grid-gap: 1em;
+}
+.cl{
+    width: 100%;
+}
+.cr{
+    width: 100%;
+}
+.cr h1{
+    margin-bottom: .5em;
+    margin-top: 3em;
+    color: #eee;
+
+}
+.cr p{
+    margin-bottom: 1em;
+    color: #eee;
+}
+.cr .image{
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: .3em;
+}
+.cr .image img{
+    height: 100%;
+    width: 100%;
+}
+.cl{
+    margin-top: 100px;
+}

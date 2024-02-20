@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255,99,71);
+    border-top: 5px slategrey;
+}
+.nav-grid{
+    display: grid;
+    grid-template-columns: 225px 1fr;
+   
+}
+.logo{
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.logo h1{
+    font-size: 28px;
+}
+.logo h1:hover{
+    color: cornflowerblue;
+}
+.logo span{
+    font-size: 10px;
+}
+ul.menu{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+ul.menu li{
+    list-style: none;
+}
+
+ul.menu li a{
+    text-decoration: none;
+    color: ghostwhite;
+    transition: .3s ease-in-out;
+    padding: 5px 10px;
+}
+ul.menu li a:hover{
+    background-color: cornflowerblue;
+    border-radius: 25px;
+}
+.content{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.heading{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.heading h1:hover{
+    color: cornflowerblue;
+}
+.cs{
+    width: 100%;
+    height: auto;
+}
+.csgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    margin: 70px 0;
+}
+.csgrid .fa-solid{
+    font-size: 40px;
+    color: grey;
+}
+.csicon h2 a{
+    text-decoration: none;
+    font-style: normal;
+    color:gray;
+    margin: 20px, 0;
+}
+.csgrid .fa-solid:hover{
+    color: rgb(255,99,71);
+}
+.csicon h2 a:hover{
+    color:rgb(255,99,71);}
+
+.content-g{
+    width: 100%;
+    height: auto;
+    margin-left: 100px;
+}
+
+.content-g2{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: space-between;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: auto;
+    margin-right: 200px;
+    margin-left: 100px;
+
+}
+.content-g-item img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    border-radius: 25px;
+}
+.content-g2{
+    border-radius: 25px;
+    padding: auto;
+}
+
